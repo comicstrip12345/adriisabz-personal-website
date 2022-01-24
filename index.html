@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adriisabz</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="materialize.css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style>
+        .dropdown-settings{
+          position: absolute;
+          top: -65px;
+          background-color: #F5EEDC;
+        }
+    </style>
+</head>
+<body>
+    
+<section class="main-content">
+
+    <!-- Navbar and Sidenav -->
+
+    <nav class="transparent">
+      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down navposition">
+        <li id="navpad1" style="padding: 0 20px;"><a href="index.html" class="navcolor">Home</a></li>
+        <li id="navpad2" style="padding: 0 20px;"><a href="about.html" class="navcolor">About</a></li>
+        <li id="navpad3" style="padding: 0 20px;"><a href="" class="navcolor dropdown-trigger" data-target="dropdown1">Portfolio</a></li>    
+      </ul>
+    </nav> 
+  
+    <ul id="slide-out" class="sidenav">
+      <div class="sidenav-bg-color center">     
+        <li>
+          <img class="sidenav-profile-pic-size" src="images/870.png" alt="">
+        </li>
+        <li style="line-height: 1px;">           
+            <h3> adriisabz</h3> 
+            <p><br> v.1.0.0 </p>      
+        </li>
+        <div style="height: 30px;">
+
+        </div>
+        <li>           
+          <a href="index.html">Home </a>     
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <ul class="collapsible">
+            <li>
+              <div class="collapsible-header">
+                <div class="row">
+                  <div class="col s12 center">
+                    <strong>Portfolio</strong>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="collapsible-body" style="background-color: transparent;"">
+                <div>
+                  <a href="website.html" style="color: black;">Websites</a>
+                </div>
+                <div>
+                  <a href="photo.html" style="color: black;">Photos</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </div>
+    </ul> 
+    
+    <ul id="dropdown1" class="dropdown-content dropdown-settings">
+      <li><a href="website.html"> Websites </a></li>
+      <li><a href="photo.html"> Photos </a></li>
+    </ul>
+  
+    <!-- Clock and Title -->
+
+    <div class="row">
+      <div class="col s12 center">
+        <br>
+        <img class="clock-settings" src="images/clock.png" alt="">
+        <h2 class="title-font-size title-font-color">adriisabz</h2>
+        <h6 class="info-font-size">web developer and photographer</h6>  
+      </div>
+    </div>
+
+    <!-- Half Window-->
+
+    <div class="window-half-position hide-on-med-and-down">
+      <img class="window-half-size" src="images/window-half.png" alt="">
+    </div>
+
+    <!-- Computer -->
+
+    <div class="row">
+      <div class="col s12 center absolute">
+        <img class="computer-size computer-bottom" src="images/computer.png" alt="">
+      </div>
+    </div>
+
+</section>
+
+<!-- Second Content -->
+
+<section class="second-content">
+  <div class="slider fullscreen">
+    <ul class="slides">
+      <li>
+         <div class="second-content-web-developer-bg-color"> 
+          <div class="row">
+
+            <!-- LED Clock -->
+
+            <div class="col s12 m6 center">
+              <img src="images/led-clock.png" alt="" style="background-size: 80%;" id="led-clock-settings">
+            </div>
+
+            <!-- Text Content -->
+
+            <div class="col s12 content-size">
+              <div class="caption center-align" style="position: absolute; top: 11rem;">
+                <p class="content-font-size">I'm aspiring Front-end Web Developer  
+                  based on Cavite, Philippines. <br>
+                  Even though I don't have any work experience, <br> 
+                  I still continue to create websites when I have free time.
+                </p>
+              </div>
+            </div>
+              
+            <!-- Web Developer Image -->
+
+            <div class="col s12 center web-developer-position">
+              <img src="images/web-developer.png" alt="" style="background-size: 100%;" id="web-developer-settings">
+            </div>
+
+            <!-- Floor -->
+
+            <div class="col s12 floor absolute">
+            </div>
+          </div>
+        </div>
+      </li> 
+      
+      <li>
+        <div class="second-content-photo-editor-bg-color"> 
+          <div class="row">
+            
+            <!-- Text Content -->
+
+            <div class="col s12 content-size">
+              <div class="caption center-align" style="position: absolute; top: 3rem;">
+                <p class="content-font-size" style="color: black;">I'm aspiring Photographer  
+                  based on Cavite, Philippines. <br>
+                  Even though I don't have any work experience, <br> 
+                  I can still continue to take  pictures when I have free time.
+                </p>
+              </div>
+            </div>
+              
+            <!-- Photographer Image -->
+
+            <div class="col s12 center photographer-position">
+              <img src="images/photographer.png" alt="" style="background-size: 62%; " id="photographer-settings">
+            </div>
+
+          </div>
+        </div> 
+      </li>
+    </ul>
+  </div>
+
+</section>
+
+
+<!-- Third Content -->
+
+<section class="third-content">
+
+  <!-- Title -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m10 offset-m1 center">
+        <h5 class="title-padding">Here are my best photos taken each year.</h5>
+      </div>
+    </div>
+  </div>
+
+  <!-- Photos -->
+
+  <div class="container" style="width: 70%;">
+    <div class="row">
+      <div class="col s6 m3 center">
+        <img src="images/instax-1.png" alt="" class="photo-size photo-padding materialboxed" style="display: inline;"  data-caption="Catering at Table 16">
+      </div>
+      <div class="col s6 m3 center">
+        <img src="images/instax-2.png" alt="" class="photo-size photo-padding materialboxed" style="display: inline;" data-caption="Watching Sunset">
+      </div>
+      <div class="col s6 m3 center">
+        <img src="images/instax-3.png" alt="" class="photo-size photo-padding materialboxed" style="display: inline;" data-caption="Pot Maker at Vigan">
+      </div>
+      <div class="col s6 m3 center left-align">
+        <img src="images/instax-4.png" alt="" class="photo-size photo-padding materialboxed" style="display: inline;" data-caption="Watching Zack Snyder Justice League at Night" > 
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Button -->
+  
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m4">
+        
+      </div>
+      <div class="col s12 m4">
+        
+      </div>
+      <div class="col s12 m4 right-align">
+        <a class="btn"href="photo.html">Portfolio</a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- DSLR Camera Images -->
+
+  <div class="row">
+    <div class="col s12 center  camera-position">
+      <img src="images/dslr.png" class="dslr-settings" alt="">
+      <img src="images/instax.png" class="instax-settings  hide-on-med-and-down" alt="">
+      <img src="images/dslr-lens.png" class="dslr-lens-settings" alt="">
+    </div>
+  </div>
+
+  
+</section>
+
+<!-- Fourth Content-->
+
+<section class="fourth-content">
+
+  <!-- Title -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m10 offset-m1 center">
+        <h5 class="title-padding">Here is my featured website built this year.</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" style="height: 5px;" >
+
+  </div>
+
+  <!-- Website Card -->
+
+  <div class="container">
+    <div class="row" style="width: 70%;">
+      <div class="col s12 center">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/my-website.PNG">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-content">
+            <p>Here is my first website that I made this year. Using materializecss as a main framework, I'm able to build this wonderful website. </p>
+            <p>Here is the <a href="index.html"> link. </a></p>
+          </div>
+          <div class="card-action">
+            <a href="website.html">Portfolio</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Web Developer Image -->
+
+  <div class="row">
+    <div class="col s12 center web-developer-computer-position">
+      <img src="images/computer.png" alt="" class="web-developer-computer-settings">
+    </div>
+  </div>
+</section> 
+
+<!-- Fifth Content -->
+
+<section class="fifth-content">
+
+  <div class="row">
+    <div class="col s12 center">
+      <br>
+      <h5> Contact me if you're interested </h5>
+    </div>
+  </div>
+  <div class="container"> 
+  <div class="row center">
+    <div class="col s4 m2 ">
+      <a href="https://web.facebook.com/adriisabz/"><img src="images/icon-facebook.png"  alt="" class="icon-settings"></a>
+    </div>
+    <div class="col s4 m2">
+      <a href="https://www.instagram.com/adriisabz/?hl=en"><img src="images/icon-instagram.png" alt=""class="icon-settings"></a>
+    </div>
+    <div class="col s4 m2">
+      <a href="https://www.linkedin.com/in/adriano-sabanal-jr-15b4a3180/"><img src="images/icon-linkedin.png" alt=""class="icon-settings"></a>
+    </div>
+    <div class="col s4 m2">
+      <a href="https://twitter.com/comicstrip12345"><img src="images/icon-twitter.png" alt=""class="icon-settings"></a>
+    </div>
+    <div class="col s4 m2">
+      <a href="https://www.youtube.com/channel/UC7ciY3_zoGhzw3RDDDE3M8w"><img src="images/icon-youtube.png" alt=""class="icon-settings"></a>
+    </div>
+    <div class="col s4 m2">
+      <img src="images/icon-gmail.png" alt=""class="icon-settings">
+    </div>
+  </div> 
+  </div>
+
+</section>
+
+<!-- Footer -->
+
+<footer class="page-footer" style="background-color: #191919; padding: 0;">
+  <div class="footer-copyright">
+      <div class="container center">
+        2022 © Copyright <a href="index.html"> adriisabz </a> 
+      </div>
+  </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>    
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+<!-- Slider jQuery Initialization -->  
+  <script>
+  $(document).ready(function(){
+    $('.slider').slider();
+  });
+  </script>
+
+<!-- Material Box jQuery Initialization -->
+  <script>
+  $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
+  </script>
+
+<!-- Drop-down jQuery Initialization -->
+  <script>
+  $('.dropdown-trigger').dropdown();
+  </script>
+
+<!--Carousel jQuery Initialization -->
+  <script>
+  $(document).ready(function(){
+  $('.carousel').carousel();
+  });
+  </script>
+
+<!--SideNav jQuery Initialization -->
+  <script>
+  $(document).ready(function(){
+  $('.sidenav').sidenav();
+  });
+  </script>
+
+<!-- Collapsible jQuery Initialization -->
+  <script>
+  $(document).ready(function(){
+  $('.collapsible').collapsible();
+  });
+  </script>
+  
+</body>
+</html>

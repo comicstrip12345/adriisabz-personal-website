@@ -1,0 +1,65 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h3{
+    color: #24A19C;
+}
+
+
+/* Website Portfolio Page */
+
+/* 1. Main Content */
+
+.main-content{
+    background-color: #C0D8C0;
+    height: 120%;
+    width: 100%;
+    position: relative;
+}
+
+/* 1.1. Navbar */
+
+.navposition{
+    position: relative;
+    right:9%;
+    
+}
+
+.navcolor{
+    color: #24A19C;
+}
+
+.sidenav-bg-color{
+    background-color: #C0D8C0;
+    height: 100%;
+}
+
+.sidenav-profile-pic-size{
+    width: 100px;
+}
+
+/* 2. Photographer Image Content */
+
+.photographer-content{
+    background-color: #C0D8C0;
+    height: 35%;
+    width: 100%;
+    position: relative;
+}
+
+.photographer-settings{
+    width:150px;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.photo-settings{
+    width: 100px;
+}

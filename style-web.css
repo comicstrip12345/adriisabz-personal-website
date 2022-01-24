@@ -1,0 +1,74 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h3{
+    color: #24A19C;
+}
+
+
+/* Website Portfolio Page */
+
+/* 1. Main Content */
+
+.main-content{
+    background-color: #c6d0ff;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+/* 1.1. Navbar */
+
+.navposition{
+    position: relative;
+    right:9%;
+    
+}
+
+.navcolor{
+    color: #24A19C;
+}
+
+.sidenav-bg-color{
+    background-color: #c6d0ff;
+    height: 100%;
+}
+
+.sidenav-profile-pic-size{
+    width: 100px;
+}
+
+/* 1.2. Collapsible Portfolio */
+
+.right-align-title{
+    position: absolute;
+    bottom:0px;
+    right: 20px;
+}
+
+.my-website-settings{
+    width: 100%;
+}
+
+
+/* 2. Web Developer Image Content */
+
+.web-developer-content{
+    background-color: #c6d0ff;
+    height: 35%;
+    width: 100%;
+    position: relative;
+}
+
+.web-developer-settings{
+    width:300px;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

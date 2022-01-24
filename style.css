@@ -1,0 +1,236 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+/* Home Page */
+
+/* 1. Home Main Content */
+
+.main-content{
+    background-color: #F5EEDC;
+    height: 100%;
+    width: 100%;
+}
+
+/* 1.1. Navbar */
+
+.navposition{
+    position: relative;
+    right:9%;
+    
+}
+
+.navcolor{
+    color: #24A19C;
+}
+
+
+.sidenav-bg-color{
+    background-color: #F5EEDC;
+    height: 100%;
+}
+
+.sidenav-profile-pic-size{
+    width: 100px;
+}
+
+
+/* 1.2. Clock*/
+
+.clock-settings{
+    width: 100px;
+
+}
+
+/* 1.3. Title */
+
+.title-font-size{
+    font-size: 500%;
+}
+
+.title-font-color{
+    color: #24A19C;
+}
+
+.info-font-size{
+    font-size: 130%;
+}
+
+/* 1.4. Window Half */
+
+.window-half-position{
+    float: right;
+    position: relative;
+    bottom: 250px;
+}
+
+.window-half-size{
+    width: 300px;
+}
+
+/* 1.5. Computer */
+
+.computer-size{
+    width:350px;
+}
+
+.computer-position{
+    position: relative;
+    top: 40px;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* 2. Second Content */
+
+.second-content{
+    
+    height: 100%;
+    width: 100%;
+}
+
+.second-content-web-developer-bg-color{
+    background-color: #516BEB;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.second-content-photo-editor-bg-color{
+    background-color: #C0D8C0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+/* 2.1. Web Developer Content */
+
+#led-clock-settings{
+    width: 13rem;
+}
+
+.content-font-size{
+    font-size: 130%;
+    line-height: 30px;
+}
+
+#web-developer-settings{
+    width: 16rem;
+    
+    
+}
+
+.web-developer-position{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+
+.floor{
+    background-color: #11468F;
+    width: 100%;
+    height: 70px;
+    
+}
+
+/* 2.2. Photographer Content */
+
+#photographer-settings{
+    width: 24rem;
+}
+
+.photographer-position{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+
+/* 3. Third Content */
+
+.third-content{
+    position: relative;
+    background-color: #adc2ad;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.title-padding{
+    padding-top: 8%;
+}
+
+/* 3.1. Photos */
+
+.photo-size{
+    width: 100%;
+}
+
+.photo-padding{
+    padding: 10px;
+    
+}
+
+/* 3.2. Cameras */
+
+.instax-settings{
+    width: 5rem;
+}
+
+.dslr-settings{
+    width: 7rem;
+}
+
+.dslr-lens-settings{
+    width: 100px;
+}
+
+.camera-position{
+    position: absolute;
+    bottom: 0;
+    
+}
+
+/* 4. Fourth Content */
+
+.fourth-content{
+    background-color: #899cff;
+    height: 150%;
+    width: 100%;
+    position: relative;
+}
+
+.web-developer-computer-position{
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.web-developer-computer-settings{
+    width: 300px;
+}
+
+/* 5. Fifth Content */
+
+.fifth-content{
+    background-color: #F5EEDC;
+    height: 35%;
+    width: 100%;
+    position: relative;
+}
+
+.icon-settings{
+    width: 40%;
+    padding-bottom: 10%;
+}
+
